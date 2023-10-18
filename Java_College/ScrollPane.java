@@ -10,6 +10,8 @@ public class ScrollPane {
         sp=new JScrollPane(t1);
         // sp.addVerticalScrollBarPolicy(JFrame.VERTICAL_SCROLLBAR_ALWAYS);
         // sp.addHorizontalScrollBarPolicy(JFrame.HORIZONTAL_SCROLLBAR_ALWAYS);
+        sp.setHorizontalScrollBarPolicy(JScrollPane.HORIZONTAL_SCROLLBAR_ALWAYS);
+        sp.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
         jf.add(sp);
         jf.setBounds(10,20,400,700);
         // jf.setLayout(null);
